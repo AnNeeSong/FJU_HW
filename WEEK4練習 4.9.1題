@@ -1,0 +1,15 @@
+"""0523訓詁學課堂實作4.9.1習題
+## 課堂練習
+1.試試看下列程式的結果, 並嘗試對自己解釋一下，為何你看到的結果是對的：
+
+def print_twice(text):
+    print(text)
+    print(text)
+
+def cat_twice(part1, part2):
+    cat = part1 + part2
+    print_twice(text=cat)
+
+line1 = '觀自在菩薩。'
+line2 = '行深波若波羅蜜多時。'
+cat_twice(part1=line1, part2=line2)
